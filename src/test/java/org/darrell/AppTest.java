@@ -23,6 +23,5 @@ public class AppTest {
         assertFalse(reference.isOverlap(new Rectangle(new Point(6,0), new Point(20,-10))));
         assertFalse(reference.isOverlap(new Rectangle(new Point(6,4), new Point(10,2))));
         assertFalse(reference.isOverlap(new Rectangle(new Point(5,5), new Point(10,0))));
-        assertFalse(reference.isOverlap(new Rectangle(new Point(15,15), new Point(20,30))));
     }
 }
