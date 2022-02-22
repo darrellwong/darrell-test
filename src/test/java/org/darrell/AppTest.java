@@ -14,7 +14,7 @@ public class AppTest {
     @Test
     public void testIsOverlap01()
     {
-        Rectangle reference = new Rectangle(new Point(0, 5), new Point(5, 0));
+        Rectangle reference = getRect(0, 5, 5, 0);
 
         // Assert True
         assertTrue(reference.isOverlap(getRect(1, 2, 2, 1)));
@@ -32,7 +32,7 @@ public class AppTest {
 
     @Test
     public void testIsOverlap02() {
-        Rectangle reference = new Rectangle(new Point(0,10), new Point(10,0));
+        Rectangle reference = getRect(0, 10, 10, 0);
 
         // Assert True
         assertTrue(reference.isOverlap(getRect(-20, 20, 5, 5)));
