@@ -49,5 +49,4 @@ public class AppTest {
         assertFalse(reference.isOverlap(getRect(-20, 20, 0, 10)));
         assertFalse(reference.isOverlap(getRect(-20, 5, 0, 5)));
     }
-
 }
